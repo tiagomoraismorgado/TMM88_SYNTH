@@ -1,0 +1,11 @@
+# Handle line endings automatically for cross-platform DSP dev
+* text=auto
+
+# Ensure C++ and Header files use LF in the repo
+*.cpp text eol=lf
+*.h text eol=lf
+*.cu text eol=lf
+*.md text eol=lf
+
+# Treat WAV files as binary (if you check in wavetables)
+*.wav binary
